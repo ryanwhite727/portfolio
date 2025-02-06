@@ -1,0 +1,78 @@
+[
+  {
+    "title": "AHEAD",
+    "type": "frontend",
+    "category": "Frontend Development",
+    "thumbnail": "/img/projects/ahead/ahead-1.png",
+    "dec": "With expertise in data engineering, I create robust ETL/ELT pipelines to extract, transform, and load data efficiently into data warehouses like Redshift, Snowflake, and BigQuery. I work with Apache Airflow, dbt, Kafka, Spark, and Flink to automate and optimize workflows. Whether it's real-time streaming, batch processing, or data lake architecture, I ensure high-performance data handling for analytics, reporting, and AI-driven insights.",
+    "additionalImages": [
+      "/img/projects/ahead/ahead-2.png",
+      "/img/projects/ahead/ahead-3.png",
+      "/img/projects/ahead/ahead-4.png",
+      "/img/projects/ahead/ahead-5.png",
+      "/img/projects/ahead/ahead-6.png",
+      "/img/projects/ahead/ahead-7.png",
+      "/img/projects/ahead/ahead-8.png"
+    ]
+  },
+  {
+    "title": "earnix",
+    "type": "frontend",
+    "category": "Frontend Development",
+    "thumbnail": "/img/projects/earnix/earnix-1.png",
+    "dec": "With expertise in data engineering, I create robust ETL/ELT pipelines to extract, transform, and load data efficiently into data warehouses like Redshift, Snowflake, and BigQuery. I work with Apache Airflow, dbt, Kafka, Spark, and Flink to automate and optimize workflows. Whether it's real-time streaming, batch processing, or data lake architecture, I ensure high-performance data handling for analytics, reporting, and AI-driven insights.",
+    "additionalImages": [
+      "/img/projects/earnix/earnix-2.png",
+      "/img/projects/earnix/earnix-3.png",
+      "/img/projects/earnix/earnix-4.png",
+      "/img/projects/earnix/earnix-5.png",
+      "/img/projects/earnix/earnix-6.png",
+      "/img/projects/earnix/earnix-7.png",
+      "/img/projects/earnix/earnix-8.png"
+    ]
+  },
+  {
+    "title": "Gravity",
+    "type": "frontend",
+    "category": "Frontend Development",
+    "thumbnail": "/img/projects/gravityclimate/gravityclimate-1.png",
+    "dec": "With expertise in data engineering, I create robust ETL/ELT pipelines to extract, transform, and load data efficiently into data warehouses like Redshift, Snowflake, and BigQuery. I work with Apache Airflow, dbt, Kafka, Spark, and Flink to automate and optimize workflows. Whether it's real-time streaming, batch processing, or data lake architecture, I ensure high-performance data handling for analytics, reporting, and AI-driven insights.",
+    "additionalImages": [
+      "/img/projects/gravityclimate/gravityclimate-2.png",
+      "/img/projects/gravityclimate/gravityclimate-3.png",
+      "/img/projects/gravityclimate/gravityclimate-4.png",
+      "/img/projects/gravityclimate/gravityclimate-5.png",
+      "/img/projects/gravityclimate/gravityclimate-6.png",
+      "/img/projects/gravityclimate/gravityclimate-7.png",
+      "/img/projects/gravityclimate/gravityclimate-8.png"
+    ]
+  },
+  {
+    "title": "Melintools",
+    "type": "fullstack",
+    "category": "Fullstack Development",
+    "thumbnail": "/img/projects/melintools/melintool-1.png",
+    "dec": "With expertise in data engineering, I create robust ETL/ELT pipelines to extract, transform, and load data efficiently into data warehouses like Redshift, Snowflake, and BigQuery. I work with Apache Airflow, dbt, Kafka, Spark, and Flink to automate and optimize workflows. Whether it's real-time streaming, batch processing, or data lake architecture, I ensure high-performance data handling for analytics, reporting, and AI-driven insights.",
+    "additionalImages": [
+      "/img/projects/melintools/melintool-2.png",
+      "/img/projects/melintools/melintool-3.png",
+      "/img/projects/melintools/melintool-4.png",
+      "/img/projects/melintools/melintool-5.png",
+      "/img/projects/melintools/melintool-6.png",
+      "/img/projects/melintools/melintool-7.png",
+      "/img/projects/melintools/melintool-8.png"
+    ]
+  },
+  {
+    "title": "Real Estate Scrapy",
+    "type": "other",
+    "category": "Web Crawling",
+    "thumbnail": "/img/projects/real-estate-scrapy/1.png",
+    "dec": "With expertise in data engineering, I create robust ETL/ELT pipelines to extract, transform, and load data efficiently into data warehouses like Redshift, Snowflake, and BigQuery. I work with Apache Airflow, dbt, Kafka, Spark, and Flink to automate and optimize workflows. Whether it's real-time streaming, batch processing, or data lake architecture, I ensure high-performance data handling for analytics, reporting, and AI-driven insights.",
+    "additionalImages": [
+      "/img/projects/real-estate-scrapy/2.png",
+      "/img/projects/real-estate-scrapy/3.png",
+      "/img/projects/real-estate-scrapy/4.png"
+    ]
+  }
+]
