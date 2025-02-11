@@ -131,7 +131,7 @@ const Contact = () => {
                     {/* <a id="send_message" onClick={handleSubmit} className="anchor">
                       <span>Submit Now</span>
                     </a> */}
-                    <button id="send_message" type="submit">
+                    <button id="send_message" type="submit" disabled={state.submitting}>
                       <span>Submit Now</span>
                     </button>
                   </div>
