@@ -1,7 +1,10 @@
+import { useForm } from '@formspree/react'
 import { useEffect, useState } from 'react'
 import { fatchData } from '../utilits'
+
 const Contact = () => {
   const [data, setData] = useState({})
+  const [state, handleSubmit] = useForm('xwpvnvje')
   useEffect(async () => {
     setData(await fatchData('/static/info.json'))
   }, [])
@@ -60,10 +63,15 @@ const Contact = () => {
               )}
             </div>
             <div className="right wow fadeInRight" data-wow-duration="1s">
+              {state.succeeded && (
+                <div className="contact-message">
+                  <h3>Thank you for contacting me!</h3>
+                  <p>I will get back to you as soon as possible.</p>
+                </div>
+              )}
               <div className="fields">
                 <form
-                  action="/"
-                  method="post"
+                  onSubmit={handleSubmit}
                   className="contact_form"
                   id="contact_form"
                   autoComplete="off"
@@ -78,11 +86,17 @@ const Contact = () => {
                   <div className="input_list">
                     <ul>
                       <li>
-                        <input id="name" type="text" placeholder="Your Name" />
+                        <input
+                          id="name"
+                          name="name"
+                          type="text"
+                          placeholder="Your Name"
+                        />
                       </li>
                       <li>
                         <input
                           id="email"
+                          name="email"
                           type="text"
                           placeholder="Your Email"
                         />
@@ -90,26 +104,36 @@ const Contact = () => {
                       <li>
                         <input
                           id="phone"
+                          name="phone"
                           type="number"
                           placeholder="Your Phone"
                         />
                       </li>
                       <li>
-                        <input id="subject" type="text" placeholder="Subject" />
+                        <input
+                          id="subject"
+                          name="subject"
+                          type="text"
+                          placeholder="Subject"
+                        />
                       </li>
                     </ul>
                   </div>
                   <div className="message_area">
                     <textarea
                       id="message"
+                      name="message"
                       placeholder="Write your message here"
                       defaultValue={''}
                     />
                   </div>
-                  <div className="dizme_tm_button">
-                    <a id="send_message" href="#">
+                  <div className="dizme_tm_button wow">
+                    {/* <a id="send_message" onClick={handleSubmit} className="anchor">
                       <span>Submit Now</span>
-                    </a>
+                    </a> */}
+                    <button id="send_message" type="submit">
+                      <span>Submit Now</span>
+                    </button>
                   </div>
                 </form>
               </div>

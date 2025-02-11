@@ -137,6 +137,16 @@ body.dark .dizme_tm_hero .social ul li a{
 body.dark .dizme_tm_button a:hover span{
 	color: #fff;
 }
+body.dark .dizme_tm_button button {
+  appearance: none;
+  outline: none;
+  font-size: 16px;
+  background-color: transparent;
+  cursor: pointer;
+}
+body.dark .dizme_tm_button button:hover span{
+	color: #fff;
+}
 body.dark .dizme_tm_about .numbers .wrapper{
 	background-color: #4b4f5c;
 	box-shadow: none;

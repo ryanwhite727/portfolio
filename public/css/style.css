@@ -578,7 +578,7 @@ h6 {
   clear: both;
   float: left;
 }
-.dizme_tm_button a {
+.dizme_tm_button a, .dizme_tm_button button {
   text-decoration: none;
   color: #fff;
   display: inline-block;
@@ -590,6 +590,13 @@ h6 {
   position: relative;
   overflow: hidden;
 }
+
+.contact-message {
+  padding: 16px 30px;
+  border-radius: 12px;
+  border: 1px solid #f75023;
+}
+
 .dizme_tm_button span {
   position: relative;
   z-index: 2;
@@ -600,15 +607,15 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.dizme_tm_button a:before {
+.dizme_tm_button a:before, .dizme_tm_button button:before {
   position: absolute;
   content: "";
   z-index: 0;
   background-color: #f75023;
   left: -5px;
   right: -5px;
-  bottom: -5px;
-  height: 110%;
+  bottom: -4px;
+  height: 111%;
 
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
@@ -616,10 +623,10 @@ h6 {
   -o-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
-.dizme_tm_button a:hover:before {
+.dizme_tm_button a:hover:before, .dizme_tm_button button:hover:before {
   height: 0;
 }
-.dizme_tm_button a:hover span {
+.dizme_tm_button a:hover span, .dizme_tm_button button:hover span {
   color: #000;
 }
 .dizme_tm_hero .social {
@@ -2891,7 +2898,7 @@ input[type="number"] {
   .dizme_tm_hero .text p {
     font-size: 16px;
   }
-  .dizme_tm_button a {
+  .dizme_tm_button a, .dizme_tm_button button {
     padding: 9px 35px 8px 35px;
   }
   .dizme_tm_hero .social {

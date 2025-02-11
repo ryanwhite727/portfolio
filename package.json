@@ -11,6 +11,7 @@
     "format": "npm run prettier -- --write"
   },
   "dependencies": {
+    "@formspree/react": "^2.5.1",
     "html-react-parser": "^1.4.8",
     "isotope-layout": "^3.0.6",
     "next": "12.1.0",
