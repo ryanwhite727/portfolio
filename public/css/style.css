@@ -312,7 +312,7 @@ h6 {
   justify-content: space-between;
 }
 .dizme_tm_mobile_menu .mobile_in .logo img {
-  max-width: 90px;
+  max-width: 130px;
   max-height: 70px;
 }
 .dizme_tm_mobile_menu .trigger {
@@ -402,7 +402,7 @@ h6 {
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
 }
 .dizme_tm_header .logo img {
-  max-width: 150px;
+  max-width: 200px;
   max-height: 80px;
 }
 .dizme_tm_header .menu ul {
@@ -2880,7 +2880,7 @@ input[type="number"] {
     padding: 5px 25px 4px 25px;
   }
   .dizme_tm_header .logo img {
-    max-width: 110px;
+    max-width: 150px;
     max-height: 70px;
   }
   .dizme_tm_header .menu ul li {

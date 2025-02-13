@@ -22,7 +22,7 @@ const Skills = ({ dark }) => {
                 data-align="left"
               >
                 <span>Code is Life</span>
-                <h3>I Develop Scalable Systems Regularly to Stay Ahead</h3>
+                <h3>I constantly learn new technologies to stay updated</h3>
                 <p>
                   The most common methods for building robust applications are
                   modular architecture and scalable infrastructure

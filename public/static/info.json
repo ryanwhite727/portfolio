@@ -2,7 +2,7 @@
   "name": "Ryan White",
   "address": "South Carolina",
   "bio": "I'm a senior software engineer based in Blacksburg, SC and I'm very passionate and dedicated to my work.",
-  "mainSkill": "Software engineer",
+  "mainSkill": "Software Engineer",
   "img": "/img/slider/avatar.png",
   "skills": [
     {
@@ -117,7 +117,7 @@
     {
       "name": "linkedin",
       "icon": "icon-linkedin-1",
-      "url": "https://www.linkedin.com/in/ryan-white-867a79348/"
+      "url": "https://www.linkedin.com/in/ryan-white-4b9497350/"
     },
     {
       "name": "github",

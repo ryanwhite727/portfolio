@@ -28,7 +28,7 @@ const Portfolio = () => {
           queue: false,
         },
       })
-    }, 500)
+    }, 1000)
     return () => isotope.current.destroy()
   }, [])
   useEffect(() => {
@@ -90,8 +90,7 @@ const Portfolio = () => {
             <span>Portfolio</span>
             <h3>My Amazing Works</h3>
             <p>
-              Most common methods for designing websites that work well on
-              desktop is responsive and adaptive design
+            The most common approaches for building scalable and maintainable full-stack applications include monolithic architecture and microservices, each with its own advantages based on project needs
             </p>
           </div>
           <div className="portfolio_filter">
